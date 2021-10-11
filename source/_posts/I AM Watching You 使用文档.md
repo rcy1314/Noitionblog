@@ -1,14 +1,14 @@
 ---
-
 title: I AM Watching You 使用文档
-tags: [I AM Watching You]
-index_img: https://p.pstatp.com/origin/pgc-image/aee30da46a50446b8c6a0b1599a4e1a8
-banner_img: https://p.pstatp.com/origin/pgc-image/aee30da46a50446b8c6a0b1599a4e1a8
+tags:
+  - I AM Watching You
+index_img: 'https://p.pstatp.com/origin/pgc-image/aee30da46a50446b8c6a0b1599a4e1a8'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/aee30da46a50446b8c6a0b1599a4e1a8'
 hide: true
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: 3a92
 date: 2021-09-11 10:00:00
-
 ---
 
 ## [手动部署](https://www.logicjake.xyz/WebMonitor/#/install?id=手动部署)

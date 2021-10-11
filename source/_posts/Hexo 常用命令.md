@@ -1,13 +1,13 @@
 ---
-
 title: Hexo 常用命令
-tags: [HEXO]
-index_img: https://p.pstatp.com/origin/pgc-image/dec8c9c9821347e2ac3c441b44b936dd
-banner_img: https://p.pstatp.com/origin/pgc-image/dec8c9c9821347e2ac3c441b44b936dd
+tags:
+  - HEXO
+index_img: 'https://p.pstatp.com/origin/pgc-image/dec8c9c9821347e2ac3c441b44b936dd'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/dec8c9c9821347e2ac3c441b44b936dd'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: b473
 date: 2021-09-16 10:00:00
-
 ---
 
 ## 常用命令

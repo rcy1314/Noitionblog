@@ -1,13 +1,13 @@
 ---
-
 title: Mac 常用命令集合
-tags: [Mac命令]
-index_img: https://p.pstatp.com/origin/pgc-image/9fba4f96d534439e92699d845017d217
-banner_img: https://p.pstatp.com/origin/pgc-image/9fba4f96d534439e92699d845017d217
+tags:
+  - Mac命令
+index_img: 'https://p.pstatp.com/origin/pgc-image/9fba4f96d534439e92699d845017d217'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/9fba4f96d534439e92699d845017d217'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: 9ff
 date: 2021-09-15 10:00:00
-
 ---
 
 开始 记住命令多用 Tab 键，命令自动补齐，提高开发效率！ 由于 Mac OS 是基于 Unix 的内核，所以与各种 Linux 系统命令大同小异。

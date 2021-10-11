@@ -1,13 +1,13 @@
 ---
 title: Windows10+7系统蓝屏代码大全蓝屏解决方法
-tags: [蓝屏]
-index_img: https://p.pstatp.com/origin/pgc-image/89159c916e60481c83556bca16532338
+tags:
+  - 蓝屏
+index_img: 'https://p.pstatp.com/origin/pgc-image/89159c916e60481c83556bca16532338'
 categories:
-- [技术文档]
+  - - 技术文档
 sticky: 2
+abbrlink: 91d2
 date: 2021-09-04 10:00:00
-
-
 ---
 
 ### 类别Ⅰ 硬件驱动问题

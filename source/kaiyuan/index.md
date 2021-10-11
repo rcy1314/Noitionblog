@@ -1,9 +1,10 @@
 ---
 title: 开源项目精选
-index_img: https://p.pstatp.com/origin/pgc-image/564e75221e894cb09a663d88c31b257f
-date: 2020-02-23 19:20:33
+index_img: 'https://p.pstatp.com/origin/pgc-image/564e75221e894cb09a663d88c31b257f'
 layout: post
-comment: 'valine'
+comment: valine
+abbrlink: ac37
+date: 2020-02-23 19:20:33
 ---
 
 <center>开源项目精选</center>

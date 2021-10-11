@@ -1,13 +1,14 @@
 ---
 title: 在Premiere中如何批量调整字幕样式
-tags: [Premiere, PR，后期知识]
-index_img: https://p.pstatp.com/origin/pgc-image/0fe7e502e37249438dd3ba939ce9d6ab
-banner_img: https://p.pstatp.com/origin/pgc-image/0fe7e502e37249438dd3ba939ce9d6ab
+tags:
+  - Premiere
+  - PR，后期知识
+index_img: 'https://p.pstatp.com/origin/pgc-image/0fe7e502e37249438dd3ba939ce9d6ab'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/0fe7e502e37249438dd3ba939ce9d6ab'
 categories:
-- [后期知识]
+  - - 后期知识
+abbrlink: c099
 date: 2021-09-14 10:00:00
-
-
 ---
 
 在Premiere中如何批量调整字幕样式

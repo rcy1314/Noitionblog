@@ -1,13 +1,13 @@
 ---
-
 title: 免费Docker可视化图形化管理面板
-tags: [Docker]
-index_img: https://p.pstatp.com/origin/pgc-image/5d8326961e074cde80bbeebf6a4c7e75
-banner_img: https://p.pstatp.com/origin/pgc-image/5d8326961e074cde80bbeebf6a4c7e75
+tags:
+  - Docker
+index_img: 'https://p.pstatp.com/origin/pgc-image/5d8326961e074cde80bbeebf6a4c7e75'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/5d8326961e074cde80bbeebf6a4c7e75'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: '9260'
 date: 2021-09-15 10:00:00
-
 ---
 
 ## **Portainer**

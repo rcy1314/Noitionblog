@@ -1,13 +1,14 @@
 ---
-
 title: HEXO零代码快速搭建
-tags: [HEXO, 博客搭建]
-index_img: https://p.pstatp.com/origin/pgc-image/0198ac9747c84ae59f992bda50118bbc
-banner_img: https://p.pstatp.com/origin/pgc-image/0198ac9747c84ae59f992bda50118bbc
+tags:
+  - HEXO
+  - 博客搭建
+index_img: 'https://p.pstatp.com/origin/pgc-image/0198ac9747c84ae59f992bda50118bbc'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/0198ac9747c84ae59f992bda50118bbc'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: fb84
 date: 2021-09-16 10:00:00
-
 ---
 
 HEXO是一套快速、简洁且高效的博客框架，官方包括网上已有各种搭建教程，这里仅介绍我的博客站搭建过程，中间不需要输入任何代码。

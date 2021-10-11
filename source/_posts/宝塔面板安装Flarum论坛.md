@@ -1,13 +1,14 @@
 ---
-
 title: 宝塔面板安装Flarum论坛
-tags: [Flarum论坛, 宝塔面板]
-index_img: https://p.pstatp.com/origin/pgc-image/eb899f6436c64e63b798de43fbec6a9c
-banner_img: https://p.pstatp.com/origin/pgc-image/eb899f6436c64e63b798de43fbec6a9c
+tags:
+  - Flarum论坛
+  - 宝塔面板
+index_img: 'https://p.pstatp.com/origin/pgc-image/eb899f6436c64e63b798de43fbec6a9c'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/eb899f6436c64e63b798de43fbec6a9c'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: '6302'
 date: 2021-09-16 10:00:00
-
 ---
 
 `Flarum`是一款新式的论坛，虽然还处于不太稳定的测试版，但是它非常好看，这就够了

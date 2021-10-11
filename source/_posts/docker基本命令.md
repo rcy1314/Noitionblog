@@ -1,13 +1,13 @@
 ---
-
 title: docker基本命令
-tags: [Docker]
-index_img: https://p.pstatp.com/origin/pgc-image/8fc4d3cf59964cd2b39fa8068e394b59
-banner_img: https://p.pstatp.com/origin/pgc-image/8fc4d3cf59964cd2b39fa8068e394b59
+tags:
+  - Docker
+index_img: 'https://p.pstatp.com/origin/pgc-image/8fc4d3cf59964cd2b39fa8068e394b59'
+banner_img: 'https://p.pstatp.com/origin/pgc-image/8fc4d3cf59964cd2b39fa8068e394b59'
 categories:
-- [技术文档]
+  - - 技术文档
+abbrlink: 5fc3
 date: 2021-09-11 10:00:00
-
 ---
 
 # **docker基本命令**
