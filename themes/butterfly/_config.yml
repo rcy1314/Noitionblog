@@ -1,10 +1,10 @@
 # Main menu navigation (導航目錄)
 # --------------------------------------
 
- format: name: link || icon
- sub-menu
- name || icon:
-   name: link || icon
+ # format: name: link || icon
+ # sub-menu
+#  name || icon:
+  #  name: link || icon
 
 menu:
    Home: / || fas fa-home
@@ -18,7 +18,7 @@ menu:
    About: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: true
 
 # Code Blocks (代碼相關)
 # --------------------------------------
