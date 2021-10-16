@@ -3,24 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: NOISE自留地
+title: Hexo
 subtitle:
-description: 这里是NOISE的博客站，收录一些文章及记录一些有价值的事
-keywords: NOISE自留地，NOISE,博客站
-author: 这里收录一些文章及记录一些有价值的事
-language: zh-CN
+description:
+keywords:
+author: John Doe
+language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.noisesite.cn
+url: http://yoursite.com
 root: /
-permalink: posts/:abbrlink/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
-
-abbrlink:
-    alg: crc16   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
 
 # Directory
 source_dir: source
@@ -77,13 +73,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: bamboo
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-
-search:
-  path: search.xml
-  field: post
