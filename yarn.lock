@@ -1300,6 +1300,11 @@
     "open" "^7.0.0"
     "serve-static" "^1.14.1"
 
+"hexo-theme-bamboo@^2.6.7":
+  "integrity" "sha512-kJrRIEmc/rmZpNBzQHaj8LSYUoZmAsxyrjHhZPTM/epMlZ1ekpuF+psDkXh21Lb3vlzr61za4Y4LNnCOfVFlFQ=="
+  "resolved" "https://registry.npmjs.org/hexo-theme-bamboo/-/hexo-theme-bamboo-2.6.7.tgz"
+  "version" "2.6.7"
+
 "hexo-theme-butterfly@^3.8.4":
   "integrity" "sha512-d7S3LVVxmpWhL0YEYhMUejLMHbbTTosB8yLDkAnbe04HA4IoYiZTlE5zYdmLEcxIiNzyjW5Va4tnn4CNggR0Vg=="
   "resolved" "https://registry.npmjs.org/hexo-theme-butterfly/-/hexo-theme-butterfly-3.8.4.tgz"
