@@ -5,30 +5,19 @@ toc: false
 
 ---
 
+<!-- vlog模块 -->
 
-
-
-
-100%宽度
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-
-50%宽度
-{% videos, 2 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% endvideos %}
-
-25%宽度
-{% videos, 4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-{% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
-
-{% endvideos %}
+<div style="position: relative; padding: 30% 45%;">
+    <iframe style="
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0; top: 0;"
+        src="//player.bilibili.com/player.html?aid=80181162&bvid=BV1qJ41147r7&cid=137214952&page=1&high_quality=1"
+        scrolling="no"
+        border="0"
+        frameborder="no"
+        framespacing="0"
+        allowfullscreen="true">
+    </iframe>
+</div>
