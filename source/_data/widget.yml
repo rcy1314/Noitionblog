@@ -55,7 +55,7 @@ widget_library_sticky:
   - class_name: test2
     id_name: test2
     order: -1
-    name: 测试轮播图
+    name: 轮播区域
     icon: fas fa-envelope
     icon_color: blue
     url: http://baidu.com
@@ -124,7 +124,7 @@ widget_library_sticky:
   - class_name: mybilibili
     id_name: mybilibili
     order: -1
-    name: 测试bli
+    name: 滚动区
     icon: fas fa-envelope
     icon_color: blue
     url: http://baidu.com
