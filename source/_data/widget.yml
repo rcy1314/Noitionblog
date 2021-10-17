@@ -1,17 +1,5 @@
-# widget_library 里面的不会出现在sticky区域，也就是不会粘贴在左侧 
 widget_library:
-  - class_name: test_a
-  id_name: test_a
-  order: 0
-  name: 这个widget不会粘贴
-  icon: fab fa-weibo
-  icon_color: '#d63130'
-  url: http://baidu.com
-  background: '#fff'
-  html: 'haha'
 
-
-# widget_library_sticky 里面的会出现在sticky区域，会粘贴在左侧
 widget_library_sticky:
   - class_name: testWidget
     id_name: testWidget
@@ -44,7 +32,6 @@ widget_library_sticky:
       <script src="/weibo/index.js"></script>
       <link href="/weibo/index.css" rel="stylesheet">
     '
-   
   - class_name: historyToday
     id_name: historyToday
     order: -1
@@ -63,11 +50,31 @@ widget_library_sticky:
       </div>
       <script src="/historyToday/index.js"></script>
     '
-
-# home_widget里面的内容会出现在座右铭那一个栏目里面
+  
 home_widget:
-  - class_name: test2_swiper
-    id_name: test2_swiper
+  - class_name: welcome
+    id_name: welcome
+    order: -1
+    name: 欢迎
+    icon: fas fa-envelope
+    icon_color: blue
+    url: http://baidu.com
+    background: '#fff'
+    html: '<img src="https://api.amogu.cn/api/ipimg/" style="width:100%">'
+  - class_name: my_github_container
+    id_name: my_github_container
+    order: -1
+    name: 测试日历
+    icon: fas fa-envelope
+    icon_color: blue
+    url: http://baidu.com
+    background: '#fff'
+    html: '
+      <div id="github_container"></div>
+      <script data-pjax src="/githubcalendar/index.js"></script>
+    '
+  - class_name: test2
+    id_name: test2
     order: -1
     name: 测试轮播图
     icon: fas fa-envelope
@@ -135,7 +142,6 @@ home_widget:
     <script src="/mySwiper/index.js"></script>
     <link href="/mySwiper/index.css" rel="stylesheet">
     '
-  
   - class_name: mybilibili
     id_name: mybilibili
     order: -1
