@@ -7,6 +7,12 @@ toc: false # 不显示文章目录
 # layout: "friends" # 这个不要了
 ---
 
-```markdown
-{% issues sites | api=https://gitee.com/api/v5/repos/yuang01/friends/issues?sort=updated&state=open&page=1&per_page=100&labels=active %}
+```json
+{
+    "title": "NV资源网",
+    "url": "https://noisevip.cn",
+    "avatar": "https://img13.360buyimg.com/ddimg/jfs/t1/203927/1/11765/125596/616c42a3Ea9fd61c5/80a8ba02ea047d44.png",
+    "screenshot": "",
+    "description": "很棒的资源站"
+}
 ```
