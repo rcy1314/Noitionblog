@@ -699,12 +699,7 @@ site_footer:
     # - icon: fas fa-github
     #   url: https://github.com/yuang01/hexo-theme-bamboo
     # - icon: fas fa-qq
-copyright: '<div class="text-center py-1">   
-  <div>
-    <span>Copyright © 2021</span></a>
-    <a href="https://noisesite.cn" target="_blank" rel="nofollow noopener">
-     <span>Noise&自留地</span></a>    <br>
-  </div> '
+copyright: 'Copyright © 2019 - 2020 <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     # - label: '<br>'
     # - label: '[Hello World](http://baidu.com)'
