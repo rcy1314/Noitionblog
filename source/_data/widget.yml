@@ -50,12 +50,12 @@ widget_library_sticky:
       </div>
       <script src="/historyToday/index.js"></script>
     '
-  
-
-  - class_name: test2
-    id_name: test2
+ 
+home_widget:
+  - class_name: 推荐文章
+    id_name: lunboqu
     order: -1
-    name: 轮播区
+    name: 推荐文章
     icon: fas fa-envelope
     icon_color: blue
     url: http://baidu.com
@@ -121,10 +121,10 @@ widget_library_sticky:
     <script src="/mySwiper/index.js"></script>
     <link href="/mySwiper/index.css" rel="stylesheet">
     '
-  - class_name: mybilibili
-    id_name: mybilibili
+  - class_name: 找到我
+    id_name: my
     order: -1
-    name: 滚动区
+    name: 找到我
     icon: fas fa-envelope
     icon_color: blue
     url: http://baidu.com
