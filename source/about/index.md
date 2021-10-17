@@ -1,8 +1,6 @@
 ---
-title: about
+title: 关于
 date: 2020-09-14 15:30:30 
-type: "about"
-layout: "about"
 ---
 
 <center>这里收录一些文章及记录一些有价值的事</center>
