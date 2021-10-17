@@ -6,7 +6,6 @@ img: https://pic1.zhimg.com/80/v2-92cc20bdf4674b6c6337478bb06657b3_1440w.jpg?sou
 onlyTitle: true
 ---
 
-```markdown
 {% gallery %}
 ![图片描述](https://pic4.zhimg.com/80/v2-5dfab6525ec92b4caf3f09e1ee72a23b_1440w.jpg?source=1940ef5c)
 ![图片描述](https://pic4.zhimg.com/80/v2-5c062983ace7db9601880019190fb5a8_1440w.jpg?source=1940ef5c)
@@ -21,4 +20,3 @@ onlyTitle: true
 ![图片描述](https://pic4.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c)
 ![图片描述](https://pic1.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg?source=1940ef5c)
 {% endgallery %}
-```
