@@ -18,7 +18,7 @@ menu:
      url: /about
      icon: fas fa-user
    友链:
-     url: /links
+     url: /friends
    更多: # 这是二级菜单的写法
     icon: fas fa-link
     children:
@@ -45,6 +45,8 @@ logo: https://p.pstatp.com/origin/pgc-image/d6c4dad395c74f9e997b2a0390c88b5b # �
 
 # 网站 favicon
 favicon: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # or .png .jpg .svg .gif .jpeg .ico
+
+
 
 # sidebar侧边栏
 sidebar:
