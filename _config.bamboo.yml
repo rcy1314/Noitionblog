@@ -51,7 +51,7 @@ favicon: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e 
 # sidebar侧边栏
 sidebar:
   on: true
-  position: left # left right
+  position: right # left right
   widget_library:
     side_blogger:
       on: true
@@ -203,11 +203,11 @@ swiper:
   bothSideBlur: '300000px' # 轮播图两边模糊程度，px越大越模糊，针对下面的imgwidthFull、full为false的时候
   ## 轮播图样式更改
   # 轮播图的文字和按钮居中显示 (针对 imgwidthFull和 full都是false的时候)
-  textCenter: false
+  textCenter: true
   # 图片宽度为100% (轮播图的文字和按钮只能居中显示)
   imgwidthFull: false
   # 整个轮播图宽高都是100%  (轮播图的文字和按钮只能居中显示)
-  full: true # full 优先级大于 imgwidthFull
+  full: false # full 优先级大于 imgwidthFull
   # 两边透明，imgwidthFull/full: false的时候，设置该值为true，则两边的模糊效果为透明
   bothSideTransparent: false
 
@@ -247,7 +247,7 @@ cursor_effect:
 
 # 头部导航是否显示天气
 weather:
-  on: false
+  on: true
 
 # 全文搜索功能
 search:
@@ -357,7 +357,7 @@ baseInfo:
 
 # 关于我 技能
 skills:  # color or #000 技能
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   HTML5:
   #     background: 'linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)'
@@ -377,7 +377,7 @@ skills:  # color or #000 技能
 
 # 关于我 社交账号
 socialAccounts: 
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   QQ:
   #     icon: fas fa-qq
@@ -390,7 +390,7 @@ socialAccounts:
 
 # 关于我 游戏
 games:
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   王者荣耀:
   #     img: 'https://pic2.zhimg.com/80/v2-54730a36304842b86a57a237b8b39945_720w.jpg?source=1940ef5c'
@@ -403,7 +403,7 @@ games:
 
 # 关于我 书籍
 books:
-  on: true
+  on: false
   # data: # data下面的值，不是固定个数的，可以自己增加或者删除
   #   明朝那些事儿:
   #     img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2736238052,2078148140&fm=26&gp=0.jpg'

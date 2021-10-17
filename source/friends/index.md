@@ -7,3 +7,6 @@ toc: false # 不显示文章目录
 # layout: "friends" # 这个不要了
 ---
 
+```bash
+{% link NV资源网, https://noisevip.cn, https://img13.360buyimg.com/ddimg/jfs/t1/203927/1/11765/125596/616c42a3Ea9fd61c5/80a8ba02ea047d44.png %}
+```

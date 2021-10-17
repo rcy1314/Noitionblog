@@ -7,8 +7,6 @@ categories:
 - [技术文档]
 sticky: 2
 date: 2021-09-04 10:00:00
-top: true
-
 ---
 
 ### 类别Ⅰ 硬件驱动问题
