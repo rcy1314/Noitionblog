@@ -186,7 +186,7 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
   defaultImg: 'https://p.pstatp.com/origin/pgc-image/ecc1421af8c440448d2c48907cef19d9' # 图片，没有则随机选取
-  defaultVideo: '' # video，min-width:992px show
+  defaultVideo: 'https://assets.mixkit.co/videos/preview/mixkit-hands-using-a-dj-table-17308-large.mp4' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: 'Noise&自留地' # 标题
   defaultDesc: [走走停停，总会遇见] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
@@ -203,9 +203,9 @@ swiper:
   bothSideBlur: '300000px' # 轮播图两边模糊程度，px越大越模糊，针对下面的imgwidthFull、full为false的时候
   ## 轮播图样式更改
   # 轮播图的文字和按钮居中显示 (针对 imgwidthFull和 full都是false的时候)
-  textCenter: true
+  textCenter: false
   # 图片宽度为100% (轮播图的文字和按钮只能居中显示)
-  imgwidthFull: false
+  imgwidthFull: true
   # 整个轮播图宽高都是100%  (轮播图的文字和按钮只能居中显示)
   full: false # full 优先级大于 imgwidthFull
   # 两边透明，imgwidthFull/full: false的时候，设置该值为true，则两边的模糊效果为透明
