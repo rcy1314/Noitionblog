@@ -1,0 +1,199 @@
+# widget_library 里面的不会出现在sticky区域，也就是不会粘贴在左侧 
+widget_library:
+  - class_name: test_a
+  id_name: test_a
+  order: 0
+  name: 这个widget不会粘贴
+  icon: fab fa-weibo
+  icon_color: '#d63130'
+  url: http://baidu.com
+  background: '#fff'
+  html: 'haha'
+
+
+# widget_library_sticky 里面的会出现在sticky区域，会粘贴在左侧
+widget_library_sticky:
+  - class_name: testWidget
+    id_name: testWidget
+    order: -1
+    name: 微博热搜
+    icon: fab fa-weibo
+    icon_color: '#d63130'
+    url: http://baidu.com
+    background: '#fff'
+    html: '
+      <div id="myWeibo">
+
+      <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
+
+        <vue-seamless-scroll
+          :data="content"
+          :class-option="classOption"
+          class="warp"
+        >
+          <div class="weibo-container" v-for="(item, index) in content" :key="index">
+            <div class="left">
+              <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div>
+              <div class="name"><a :href="item.url" target="_blank">{{item.name}}</a></div>
+            </div>
+            <div class="hot">{{item.hot}}</div>
+          </div>
+        </vue-seamless-scroll>
+      </div>
+
+      <script src="/weibo/index.js"></script>
+      <link href="/weibo/index.css" rel="stylesheet">
+    '
+   
+  - class_name: historyToday
+    id_name: historyToday
+    order: -1
+    name: 历史上的今天
+    icon: fas fa-calendar-week
+    icon_color: '#d63130'
+    url: http://baidu.com
+    background: '#fff'
+    html: '
+      <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
+        <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption">
+          <swiper-slide v-for="(item, index) in content" :key="index">
+            {{item}}
+          </swiper-slide>
+        </swiper>
+      </div>
+      <script src="/historyToday/index.js"></script>
+    '
+
+# home_widget里面的内容会出现在座右铭那一个栏目里面
+home_widget:
+  - class_name: test2_swiper
+    id_name: test2_swiper
+    order: -1
+    name: 测试轮播图
+    icon: fas fa-envelope
+    icon_color: blue
+    url: http://baidu.com
+    background: '#fff'
+    html: '
+    <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
+      <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption">
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="/mySwiper/img/2.jpg" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述哦</p>
+          </a>
+        </swiper-slide>
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="/mySwiper/img/3.jpg" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题2</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述2</p>
+          </a>
+        </swiper-slide>
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="/mySwiper/img/4.jpg" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题3</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述3</p>
+          </a>
+        </swiper-slide>
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="/mySwiper/img/5.jpg" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题4</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述4</p>
+          </a>
+        </swiper-slide>
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="https://api.dujin.org/pic/ghibli/" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题5</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述5</p>
+          </a>
+        </swiper-slide>
+
+        <swiper-slide>
+          <a href="http://baidu.com" class="toPath">
+            <img class="no-lazy" src="/mySwiper/img/7.jpg" style="width:100%;height:100%;object-fit: cover;">
+            <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是标题6</h2>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">我是描述6</p>
+          </a>
+        </swiper-slide>
+
+        <!-- 如果你想继续增加轮播图，继续在下面写<swiper-slide>我是内容</swiper-slide>就行了 -->
+        <div class="swiper-pagination" slot="pagination"></div>
+
+      </swiper>
+    </div>
+
+    <script src="/mySwiper/index.js"></script>
+    <link href="/mySwiper/index.css" rel="stylesheet">
+    '
+  
+  - class_name: mybilibili
+    id_name: mybilibili
+    order: -1
+    name: 测试bli
+    icon: fas fa-envelope
+    icon_color: blue
+    url: http://baidu.com
+    background: '#fff'
+    html: '
+      <div id="myBli">
+        <vue-seamless-scroll
+          :data="listData"
+          :class-option="classOption"
+          class="warp"
+        >
+          <ul class="ul-item" style="width:720px;">
+            <!-- 在这里改, 手动修改a连接的href值和img的src值, 如果你会进阶，你可以使用v-for, 或者数据使用动态数据-->
+            
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+
+            <li class="li-item">
+              <a href="http://baidu.com">
+                <img class="no-lazy" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg">
+              </a>
+            </li>
+            <!-- 在这里结束 -->
+          </ul>
+        </vue-seamless-scroll>
+      </div>
+
+      <script src="/bli/index.js"></script>
+      <link href="/bli/index.css" rel="stylesheet">
+    '
