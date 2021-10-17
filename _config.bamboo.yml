@@ -2,22 +2,22 @@
 
 # 菜单
 menu:
-   Home:
+   首页:
      url: /
      icon: fas fa-home
-   Archives:
+   归档:
      url: /archives
      icon: fas fa-archive
-   Tags:
+   标签:
      url: /tags
      icon: fas fa-tags
-   Categories:
+   分类:
      url: /categories
      icon: fas fa-bookmark
-   About:
+   关于:
      url: /about
      icon: fas fa-user
-   Friends:
+   友链:
      url: /friends
    更多: # 这是二级菜单的写法
     icon: fas fa-link
@@ -37,7 +37,7 @@ menu:
 
 # github地址, 头部导航右上角的github链接
 Github: 
-  on: true
+  on: false
   url: https://github.com/yuang01/hexo-theme-bamboo
 
 # 网站logo

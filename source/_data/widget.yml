@@ -51,28 +51,7 @@ widget_library_sticky:
       <script src="/historyToday/index.js"></script>
     '
   
-home_widget:
-  - class_name: welcome
-    id_name: welcome
-    order: -1
-    name: 欢迎
-    icon: fas fa-envelope
-    icon_color: blue
-    url: http://baidu.com
-    background: '#fff'
-    html: '<img src="https://api.amogu.cn/api/ipimg/" style="width:100%">'
-  - class_name: my_github_container
-    id_name: my_github_container
-    order: -1
-    name: 测试日历
-    icon: fas fa-envelope
-    icon_color: blue
-    url: http://baidu.com
-    background: '#fff'
-    html: '
-      <div id="github_container"></div>
-      <script data-pjax src="/githubcalendar/index.js"></script>
-    '
+
   - class_name: test2
     id_name: test2
     order: -1
