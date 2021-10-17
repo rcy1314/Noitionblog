@@ -2,49 +2,49 @@
 
 # 菜单
 menu:
-  # Home:
-  #   url: /
-  #   icon: fas fa-home
-  # Archives:
-  #   url: /archives
-  #   icon: fas fa-archive
-  # Tags:
-  #   url: /tags
-  #   icon: fas fa-tags
-  # Categories:
-  #   url: /categories
-  #   icon: fas fa-bookmark
-  # About:
-  #   url: /about
-  #   icon: fas fa-user
-  # Friends:
-  #   url: /friends
-  # 更多: # 这是二级菜单的写法
-  #  icon: fas fa-link
-  #  children:
-  #   - name: 图库
-  #     url: /gallery
-  #     icon: fas fa-music
-  #   - name: 友情连接
-  #     url: /huoban
-  #     icon: fas fa-film
-  #   - name: 关于我
-  #     url: /me
-  #     icon: fas fa-film
-  #   - name: 百度
-  #     url: http://baidu.com
-  #     icon: fas fa-film
+   Home:
+     url: /
+     icon: fas fa-home
+   Archives:
+     url: /archives
+     icon: fas fa-archive
+   Tags:
+     url: /tags
+     icon: fas fa-tags
+   Categories:
+     url: /categories
+     icon: fas fa-bookmark
+   About:
+     url: /about
+     icon: fas fa-user
+   Friends:
+     url: /friends
+   更多: # 这是二级菜单的写法
+    icon: fas fa-link
+    children:
+     - name: 图库
+       url: /gallery
+       icon: fas fa-music
+     - name: 友情连接
+       url: /huoban
+       icon: fas fa-film
+     - name: 关于我
+       url: /me
+       icon: fas fa-film
+     - name: 百度
+       url: http://baidu.com
+       icon: fas fa-film
 
 # github地址, 头部导航右上角的github链接
-Github: 
-  on: true
-  url: https://github.com/yuang01/hexo-theme-bamboo
+#Github: 
+#  on: true
+#  url: https://github.com/yuang01/hexo-theme-bamboo
 
 # 网站logo
-logo: /medias/logo.png # 为空则不显示
+logo: https://p.pstatp.com/origin/pgc-image/239934b43dd24ef68b540075f4bb3476 # 为空则不显示
 
 # 网站 favicon
-favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
@@ -53,11 +53,11 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: http://api.btstu.cn/sjtx/api.php?lx=c1&format=images
+      avatar: https://p.pstatp.com/origin/pgc-image/239934b43dd24ef68b540075f4bb3476
       shape: rectangle # circle, rectangle
       url: /about/
-      title: 青墨书晚风
-      subtitle: 我是副标题
+      title: Noise
+      subtitle: 自留地
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Long Cang,cursive
       background: '#fff'
@@ -66,11 +66,11 @@ sidebar:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:me@xxx.com
-        - icon: fab fa-github
-          url: https://github.com/yuang01/hexo-theme-bamboo
+          url: mailto:1129159201@qq.com
+        #- icon: fab fa-github
+        #  url: https://github.com/yuang01/hexo-theme-bamboo
         - icon: fab fa-qq
-          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=你的qq号码
+          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1129159201
     # ---------------------------------------
     # category widget
     side_category:
@@ -177,20 +177,20 @@ swiper:
   delay: 5000 # 切换延迟时间
   effect: 'slide' # 'fade': 淡入淡出效果 , fade效果暂不支持pjax
   textAnimated: 'fadeInDown' # 文字动画，属性使用 animate.css, https://daneden.github.io/animate.css/
-  textDuration: '0.2s' # 文字动画持续时间（单位秒）
+  textDuration: '0.1s' # 文字动画持续时间（单位秒）
   textDelay: '0.1s' # 文字动画延迟时间（单位秒）
   readMoreBtn: true # 阅读更多按钮是否显示
   readMoreBtnBackgroundColor: '' # 阅读更多按钮背景颜色,空字符串则默认使用主题颜色
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://img11.360buyimg.com/ddimg/jfs/t1/160978/33/20686/2476596/6083e62dEa588862b/63f8f2163ab61b2f.png' # 图片，没有则随机选取
+  defaultImg: 'https://p.pstatp.com/origin/pgc-image/ecc1421af8c440448d2c48907cef19d9' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
-  defaultTile: '青墨书晚风' # 标题
-  defaultDesc: [] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
+  defaultTile: 'Noise&自留地' # 标题
+  defaultDesc: [走走停停，总会遇见] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
+  defaultLeftBtnText: '' # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
-  defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnText: '' # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
@@ -229,9 +229,9 @@ donate:
   on: true
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
-Alipay: '/medias/zfb.jpg'
+Alipay: 'https://p.pstatp.com/origin/pgc-image/359e01abfe6c4fcb8d06a06437cedb63'
 # 微信打赏图片相对路径
-WeChatpay: '/medias/wx.jpg'
+WeChatpay: 'https://p.pstatp.com/origin/pgc-image/d963f4c0707444bba84139b3f3cde810'
 
 # 分享功能
 sharejs: 
@@ -240,7 +240,7 @@ sharejs:
 
 # 鼠标点击特效
 cursor_effect:
-  on: true
+  on: false
   type: explosion  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
 
 # 头部导航是否显示天气
@@ -259,7 +259,7 @@ postNav:
 copy:
   on: true
   title: '成功'
-  content: '代码已复制，请遵守相关授权协议。'
+  content: '已复制，请遵守相关授权协议。'
 
 # 输入框打字特效
 inputEffects:
@@ -271,7 +271,7 @@ ribbon:
 
 # live-2d(左下角动画人物)
 live2d:
-  on: true # 控制显示或者隐藏
+  on: false # 控制显示或者隐藏
   modelId:  # 0 or 1 or 2 or 3 or 4 or 5 or 6
   open: true # 默认展开，false则收缩，通过点左下角的方块点击，控制展开或者收缩
 
@@ -332,9 +332,9 @@ toc:
 music:
   on: true
   autoHide: true    # hide automaticaly
-  server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
+  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 8062553743     #require	song id / playlist id / album id / search keyword
+  id: 128460001     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式，建议开启
   autoplay: false   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
@@ -348,7 +348,7 @@ music:
 # 关于我
 baseInfo:
   on: true
-  age: 99 # 年龄
+  age: 31 # 年龄
   sex: '男' # 性别
   coordinate: '火星' # 坐标
   status: '划水中' # 状态
@@ -418,7 +418,7 @@ copyright:
 motto:
   on: true
   title: '座右铭'
-  content: '沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜'
+  content: '热爱生活，忠于自己，付出每一帧每一秒，才能更懂得自己，更懂得生活'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
 
 # 首页公告
@@ -474,8 +474,8 @@ bubble:
 # valine 评论
 valine:
   on: true
-  appid: 
-  appkey: 
+  appid: PMd59BNMA9UejPKUQnXvTnBp-gzGzoHsz
+  appkey: BAESSxGaaul2Lrvs876IIObX
   avatar: '' # 匿名者头像选项 https://valine.js.org/avatar.html
   placeholder: '客官，说点什么吧' # 评论内容输入框的 placeholder
   master: '' # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
@@ -613,7 +613,7 @@ friends:
 # 黑夜模式, 关灯
 dark:
   on: true # 是否显示开关灯
-  default: false  # true为默认关灯状态（刷新页面和跳转页面都是关灯状态），false为默认开灯状态(网页第一次打开的时候为开灯状态)
+  default: true  # true为默认关灯状态（刷新页面和跳转页面都是关灯状态），false为默认开灯状态(网页第一次打开的时候为开灯状态)
 
 # 主题颜色
 color_scheme:
@@ -621,7 +621,7 @@ color_scheme:
   # 通用颜色
   common:
     # 主题色
-    theme: '#42b983'
+    theme: '#14211a'
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 链接色 a标签
@@ -629,7 +629,7 @@ color_scheme:
     # 选中区域文字的背景颜色, 后面的小数代表透明度
     selection: 'alpha(#42b983, 0.8)'
     # 顶部页面加载进度条颜色
-    pace: '#f6a427'
+    pace: '#095BD8'
     # 滚动条颜色, 空字符串则滚动条使用 主题色，否则强制使用该颜色
     scroll: '#42b983'
     # 首页文章列表的背景颜色, url("http://xxx.png") or red or #000 or rgba() ..
@@ -699,8 +699,14 @@ site_footer:
     # - icon: fas fa-github
     #   url: https://github.com/yuang01/hexo-theme-bamboo
     # - icon: fas fa-qq
-    #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2019 - 2020 <a href="https://github.com/yuang01">yuang01</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+ content: '
+    <div class="text-center py-1">   
+  <div>
+    <span>Copyright © 2021</span></a>
+    <a href="https://noisesite.cn" target="_blank" rel="nofollow noopener">
+     <span>Noise&自留地</span></a>    <br>
+  </div>
+  '
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     # - label: '<br>'
     # - label: '[Hello World](http://baidu.com)'
@@ -832,3 +838,13 @@ CDN:
   paceCss: //cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
   typedJs: https://cdn.jsdelivr.net/npm/typed.js@2.0.11
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
