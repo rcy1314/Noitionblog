@@ -177,7 +177,7 @@ swiper:
   delay: 5000 # 切换延迟时间
   effect: 'slide' # 'fade': 淡入淡出效果 , fade效果暂不支持pjax
   textAnimated: 'fadeInDown' # 文字动画，属性使用 animate.css, https://daneden.github.io/animate.css/
-  textDuration: '0.1s' # 文字动画持续时间（单位秒）
+  textDuration: '0.2s' # 文字动画持续时间（单位秒）
   textDelay: '0.1s' # 文字动画延迟时间（单位秒）
   readMoreBtn: true # 阅读更多按钮是否显示
   readMoreBtnBackgroundColor: '' # 阅读更多按钮背景颜色,空字符串则默认使用主题颜色
@@ -332,9 +332,9 @@ toc:
 music:
   on: true
   autoHide: true    # hide automaticaly
-  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
+  server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 128460001     #require	song id / playlist id / album id / search keyword
+  id: 8062553743     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式，建议开启
   autoplay: false   # 是否自动播放, 有些浏览器会禁用自动播放，目前edge可以自动播放
   theme: '#42b983'
