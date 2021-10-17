@@ -33,6 +33,27 @@ menu:
        url: http://baidu.com
        icon: fa fa-film
 
+
+
+search:
+  path: search.xml
+  field: post
+
+# github地址, 头部导航右上角的github链接
+#Github: 
+  #on: true
+  #url: https://github.com/yuang01/hexo-theme-bamboo
+
+# 网站logo
+logo: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # 为空则不显示
+
+# 网站 favicon
+favicon: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # or .png .jpg .svg .gif .jpeg .ico
+
+# 页面刷新时预加载动画
+preloader:
+  on: true
+
 # sidebar侧边栏
 sidebar:
   on: true
@@ -150,24 +171,6 @@ sidebar:
           text: '最后活动时间：'
           unit: '日'
 
-search:
-  path: search.xml
-  field: post
-
-# github地址, 头部导航右上角的github链接
-#Github: 
-  #on: true
-  #url: https://github.com/yuang01/hexo-theme-bamboo
-
-# 网站logo
-logo: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # 为空则不显示
-
-# 网站 favicon
-favicon: https://p.pstatp.com/origin/pgc-image/ac54709ce75a4b0f9f835aabf8af8f4e # or .png .jpg .svg .gif .jpeg .ico
-
-# 页面刷新时预加载动画
-preloader:
-  on: true
 
 # 首页轮播图设置
 swiper:
@@ -811,7 +814,7 @@ imgs:
 CDN:
   valine: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
   iconfont: https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css
-  fontAwesome: https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
+  fontAwesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@5.15.3/css/all.min.css
   aplayer: https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
   Meting: https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js
   livere: https://cdn-city.livere.com/js/embed.dist.js
@@ -828,7 +831,6 @@ CDN:
   paceCss: //cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
   typedJs: https://cdn.jsdelivr.net/npm/typed.js@2.0.11
-
 feed:
   type: atom
   path: atom.xml
