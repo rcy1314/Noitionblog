@@ -7,7 +7,7 @@ toc: false # 不显示文章目录
 # layout: "friends" # 这个不要了
 ---
 
-<center>申请请发送-名称+地址+logo</center>
+
 
 {% linkgroup %}
 

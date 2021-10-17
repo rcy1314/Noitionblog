@@ -22,17 +22,17 @@ menu:
    更多: # 这是二级菜单的写法
     icon: fas fa-link
     children:
-     - name: 图库
+     - name: 灵感图册
        url: /gallery
        icon: fas fa-music
-     - name: 视频
+     - name: 创意视频
        url: /video
        icon: fas fa-film
-     - name: 关于我
+     - name: 关于
        url: /me
        icon: fas fa-film
-     - name: 百度
-       url: http://baidu.com
+     - name: 导航
+       url: https://noisedh.cn
        icon: fas fa-film
 
 # github地址, 头部导航右上角的github链接
@@ -186,7 +186,7 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
   defaultImg: 'https://p.pstatp.com/origin/pgc-image/ecc1421af8c440448d2c48907cef19d9' # 图片，没有则随机选取
-  defaultVideo: '' # video，min-width:992px show
+  defaultVideo: 'https://assets.mixkit.co/videos/preview/mixkit-flying-low-in-a-desert-on-a-clear-sky-day-30334-large.mp4' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: 'Noise&自留地' # 标题
   defaultDesc: [走走停停，总会遇见] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
@@ -430,10 +430,10 @@ notice:
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
-    # - title: '#博客更新到2.0了'
-    #   date: '2021-04-28'
-    #   url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
-    #   color: red   # 字体颜色
+     - title: '#博客更换主题了'
+       date: '2021-10-18'
+       url: ''   # 可以为空, 也可以是本地页面地址如 '/archives'
+       color: red   # 字体颜色
     # - title: '#新增 轮播图支持三种模式了，功能也增强了 ~'
     #   date: '2021-04-28'
     #   url: 'http://baidu.com'
@@ -546,7 +546,7 @@ danmu:
 archive:
   title: 'archive'
   img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: true # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -558,7 +558,7 @@ archive:
 tag:
   title: 'tags'
   img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -568,7 +568,7 @@ tag:
 tagDetail:
   title: 'tag'
   img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
+  desc: '走走停停，总会遇见' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -577,7 +577,7 @@ tagDetail:
 categories:
   title: 'categories'
   img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -587,7 +587,7 @@ categories:
 categoryDetail:
   title: 'category'
   img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -596,7 +596,7 @@ categoryDetail:
 about:
   title: 'about'
   img: 'https://pic4.zhimg.com/80/v2-d12b0c9802720897793993a5a199720f_1440w.jpg'
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -606,7 +606,7 @@ about:
 friends:
   title: 'friends'
   img: 'https://pic2.zhimg.com/80/v2-2407599a217ba89f9499c282f129d44d_1440w.jpg?source=1940ef5c'
-  desc: '愿你如风，被人温柔以待'
+  desc: '走走停停，总会遇见'
   full: false
   video: ''
   background: '' # red or rgba(255,255,255,0.8) or other color or url("http:xxx.png")
@@ -615,7 +615,7 @@ friends:
 # 黑夜模式, 关灯
 dark:
   on: true # 是否显示开关灯
-  default: true  # true为默认关灯状态（刷新页面和跳转页面都是关灯状态），false为默认开灯状态(网页第一次打开的时候为开灯状态)
+  default: false  # true为默认关灯状态（刷新页面和跳转页面都是关灯状态），false为默认开灯状态(网页第一次打开的时候为开灯状态)
 
 # 主题颜色
 color_scheme:
