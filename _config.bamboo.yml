@@ -18,15 +18,15 @@ menu:
      url: /about
      icon: fas fa-user
    友链:
-     url: /friends
+     url: /links
    更多: # 这是二级菜单的写法
     icon: fas fa-link
     children:
      - name: 图库
        url: /gallery
        icon: fas fa-music
-     - name: 友情连接
-       url: /huoban
+     - name: 视频
+       url: /video
        icon: fas fa-film
      - name: 关于我
        url: /me

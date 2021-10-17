@@ -7,7 +7,7 @@ toc: false # 不显示文章目录
 # layout: "friends" # 这个不要了
 ---
 
-```json
+```html
 {
     "title": "NV资源网",
     "url": "https://noisevip.cn",
