@@ -6,8 +6,10 @@ img: https://pic2.zhimg.com/80/v2-2cf3b62a87045ee279096449cf6f3ac1_1440w.jpg?sou
 onlyTitle: true
 ---
 
-```bash
+
+
 {% title h2, video演示 %}
+
 100%宽度
 {% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
 
@@ -29,5 +31,5 @@ onlyTitle: true
 {% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
 {% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
 {% video  https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4 %}
+
 {% endvideos %}
-```
