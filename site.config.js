@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '243b8193062f4bf0b23990e19e6f946d',
+  rootNotionPageId: '69a25fc6e04b471eac64c8757a2c2bae',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Noise&blog',
-  domain: 'https://ppnoise.notion.site/ppnoise/NOISE-243b8193062f4bf0b23990e19e6f946d',
+  domain: 'https://ppnoise.notion.site/ppnoise/Noise-blog-69a25fc6e04b471eac64c8757a2c2bae',
   author: '我的自留地',
 
   // open graph metadata (optional)
