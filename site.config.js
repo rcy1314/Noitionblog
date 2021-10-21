@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'NOISE|知识效率集',
-  domain: 'https://www.noisesite.cn',
+  domain: 'www.noisesite.cn',
   author: 'NOISE|知识效率集',
 
   // open graph metadata (optional)
