@@ -4,7 +4,7 @@ module.exports = {
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: "bc6a0368-deb4-4410-9980-12d12d8c4da2",
 
   // basic site info (required)
   name: 'NOISE|知识效率集',
@@ -14,7 +14,7 @@ module.exports = {
   // open graph metadata (optional)
   description: 'NOISE|知识效率集',
   socialImageTitle: 'NOISE|知识效率集',
-  socialImageSubtitle: 'Hello World! 👋',
+  socialImageSubtitle: '👋',
 
   // social usernames (optional)
   twitter: '',
