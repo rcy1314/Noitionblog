@@ -38,7 +38,9 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import { bootstrap } from 'lib/bootstrap-client'
 import { fathomId, fathomConfig } from 'lib/config'
-import * as Fathom from 'fathom-client'
+import * as ga from 'lib/ga'
+import * as resize from 'lib/imgResize'
+//import * as Fathom from 'fathom-client'
 
 if (typeof window !== 'undefined') {
   bootstrap()
@@ -48,19 +50,17 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
 
   React.useEffect(() => {
-    if (fathomId) {
-      Fathom.load(fathomId, fathomConfig)
-
       function onRouteChangeComplete() {
-        Fathom.trackPageview()
+        resize.resizeCover();
+        ga.bsz();
+        ga.pageview();
       }
-
       router.events.on('routeChangeComplete', onRouteChangeComplete)
 
       return () => {
         router.events.off('routeChangeComplete', onRouteChangeComplete)
       }
-    }
+  
   }, [])
 
   return <Component {...pageProps} />
