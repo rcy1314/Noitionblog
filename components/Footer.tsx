@@ -77,6 +77,7 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
+
     </footer>
   )
 }
