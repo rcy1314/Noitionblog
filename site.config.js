@@ -7,13 +7,13 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'NOISE  | 知识效率集',
+  name: 'NOISE|知识效率集',
   domain: 'https://ppnoise.notion.site/ppnoise/Noise-blog-69a25fc6e04b471eac64c8757a2c2bae',
-  author: 'NOISE  | 知识效率集',
+  author: 'NOISE|知识效率集',
 
   // open graph metadata (optional)
-  description: 'NOISE  | 知识效率集',
-  socialImageTitle: 'NOISE  | 知识效率集',
+  description: 'NOISE|知识效率集',
+  socialImageTitle: 'NOISE|知识效率集',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
