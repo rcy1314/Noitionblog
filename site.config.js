@@ -7,13 +7,13 @@ module.exports = {
   rootNotionSpaceId: "bc6a0368-deb4-4410-9980-12d12d8c4da2",
 
   // basic site info (required)
-  name: 'NOISE&知识效率集',
+  name: 'NOISE知识效率集',
   domain: 'www.noisesite.cn',
-  author: 'NOISE&知识效率集',
+  author: 'NOISE知识效率集',
 
   // open graph metadata (optional)
-  description: 'NOISE&知识效率集',
-  socialImageTitle: 'NOISE&知识效率集',
+  description: 'NOISE知识效率集',
+  socialImageTitle: 'NOISE知识效率集',
   socialImageSubtitle: '👋',
 
   // social usernames (optional)
