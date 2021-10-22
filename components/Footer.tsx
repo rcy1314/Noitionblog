@@ -33,7 +33,7 @@ export const Footer: React.FC<{
           <a
             className={styles.toggleDarkMode}
             onClick={toggleDarkModeCb}
-            title='Toggle dark mode'
+            title='Tottle dark mode'
           >
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
@@ -77,6 +77,9 @@ export const Footer: React.FC<{
           </a>
         )}
       </div>
+
+
+<div className="bsz"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div>
     </footer>
   )
 }

@@ -52,12 +52,7 @@ import styles from './styles.module.css'
 //   }
 // )
 
-// TODO: PDF support via "react-pdf" package has numerous troubles building
-// with next.js
-// const Pdf = dynamic(
-//   () => import('react-notion-x').then((notion) => notion.Pdf),
-//   { ssr: false }
-// )
+const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
 
 const Equation = dynamic(() =>
   import('react-notion-x').then((notion) => notion.Equation)
@@ -160,7 +155,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
       pageAside = <PageActions tweet={tweet} />
     }
   } else {
-    pageAside = <PageSocial />
+    pageAside = ''
   }
 
   return (
@@ -254,6 +249,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
           collectionRow: CollectionRow,
           tweet: Tweet,
           modal: Modal,
+          pdf: Pdf,
           equation: Equation
         }}
         recordMap={recordMap}
@@ -280,7 +276,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
 
-      <GitHubShareButton />
+     
     </TwitterContextProvider>
   )
 }
