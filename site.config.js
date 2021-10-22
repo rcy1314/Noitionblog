@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'NOISE | 知识效率集',
-  domain: 'https://ppnoise.notion.site/NOISE-69a25fc6e04b471eac64c8757a2c2bae',
+  domain: 'https://www.noisesite.cn',
   author: 'NOISE | 知识效率集',
 
   // open graph metadata (optional)
