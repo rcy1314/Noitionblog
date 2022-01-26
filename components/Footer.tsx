@@ -80,9 +80,6 @@ export const Footer: React.FC<{
 
 
 <div className="bsz"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div>
-<script type="text/javascript">
-     document.body.oncopy=function(){alert("复制成功！撰文不易，转载请务必保留原文链接，谢谢合作！");}
- </script>
     </footer>
   )
 }
